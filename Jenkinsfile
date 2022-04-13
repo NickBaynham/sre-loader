@@ -1,4 +1,4 @@
-def imageName = 'mlabouardy/movies-loader'
+def imageName = 'nickbaynham/sre-loader'
 def registry = 'https://registry.slowcoder.com'
 
 node('workers'){
