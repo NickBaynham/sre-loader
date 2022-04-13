@@ -1,11 +1,11 @@
 FROM python:3.7.3
-LABEL MAINTAINER mlabouardy
+LABEL MAINTAINER nbaynham
 
 WORKDIR /app 
 
 COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 COPY movies.json main.py ./
 
