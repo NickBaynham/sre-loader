@@ -22,4 +22,4 @@ class TestJSONLoaderMethods(unittest.TestCase):
 
 if __name__ == '__main__':
     runner = xmlrunner.XMLTestRunner(output = 'reports')
-    unittest.main()
+    unittest.main(testRunner - runner)
