@@ -2,7 +2,8 @@ FROM python:3.7.3
 
 WORKDIR /app 
 
-RUN pip install unittest-xml-reporting
+RUN pip3 install unittest-xml-reporting
+RUN pip3 install xmlrunner
 
 COPY test_main.py .
 COPY movies.json .
